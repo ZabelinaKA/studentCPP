@@ -16,10 +16,6 @@ int main()
 		cin >> number_1;
 		cin >> number_2;
 		cout << "what do you want to do?" << endl;
-		r1 = number_1 + number_2;
-		r2 = number_1 - number_2;
-		r3 = number_1 * number_2;
-		r4 = number_1 / number_2;
 		printf("1. +\n2. -\n3. *\n4. /\n");
 		cout << "your answer= ";
 		cin >> k;
