@@ -8,7 +8,13 @@ using namespace std;
 int main()
 {
    
-   cout << "Hello, Kseniya. You're 18 years old."
+   cout << "What your name?" << endl;
+	char myname[256]= "";
+	int age;
+	cin >> myname;
+	cout << "How old are you?" << endl;
+	cin >> age;
+	cout << "Hello, " << myname << ". You're " << age << " years old." << endl;
    
 }
 
