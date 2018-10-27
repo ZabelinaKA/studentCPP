@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	int number_1, number_2, r1, r2, r3, r4, result, k;
+	int number_1, number_2, result, k;
 	char c = 'y';
 	while (c == 'y') {
 		cout << "Hello,user. Enter two numbers." << endl;
