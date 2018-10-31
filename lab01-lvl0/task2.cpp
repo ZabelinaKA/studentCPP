@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	cout << "What your name?" << endl;
+	cout << "What is your name?" << endl;
 	char myname[256]= "";
 	int y, d, y_t, age, m, m_t, d_t, i=0;
 	cin >> myname;
