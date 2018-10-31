@@ -9,9 +9,9 @@ using namespace std;
 
 int main()
 {
-	int number_1, number_2, r1, r2, r3, r4, result, k;
 	char c = 'y';
 	while (c == 'y') {
+		int number_1, number_2, r1, r2, r3, r4, result, k;
 		cout << "Hello,user. Enter two numbers." << endl;
 		cin >> number_1;
 		cin >> number_2;
