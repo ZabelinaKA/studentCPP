@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Task4.cpp
+d:\visual studio 2017\backup files\studentcpp\studentcpp\lab1- lvl0\task4\task4.cpp(14): warning C4101: r2: неиспользованная локальная переменная
+d:\visual studio 2017\backup files\studentcpp\studentcpp\lab1- lvl0\task4\task4.cpp(14): warning C4101: r1: неиспользованная локальная переменная
+d:\visual studio 2017\backup files\studentcpp\studentcpp\lab1- lvl0\task4\task4.cpp(14): warning C4101: r4: неиспользованная локальная переменная
+d:\visual studio 2017\backup files\studentcpp\studentcpp\lab1- lvl0\task4\task4.cpp(14): warning C4101: r3: неиспользованная локальная переменная
+  Task4.vcxproj -> D:\Visual Studio 2017\Backup Files\StudentCPP\studentCPP\lab1- lvl0\Debug\Task4.exe
