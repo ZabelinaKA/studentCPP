@@ -1,5 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (task 1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  pch.cpp
-  Task1.cpp
-d:\visual studio 2017\backup files\studentcpp\studentcpp\lab1- lvl0\task1\task1.cpp(11): warning C4129: : неизвестная escape-последовательность
-  task 1.vcxproj -> D:\Visual Studio 2017\Backup Files\StudentCPP\studentCPP\lab1- lvl0\Debug\Task1.exe
