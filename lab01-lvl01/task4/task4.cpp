@@ -8,7 +8,7 @@ int main(void)
 {
 		char c = 'y';
 		while (c == 'y') {
-			int k, i=0;
+			int k;
 		        float result, number_1 = 0, number_2 = 0;
 			cout << "Hello,user. Enter two numbers." << endl;
 				cin >> number_1;
