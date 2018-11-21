@@ -6,10 +6,10 @@ using namespace std;
 
 int main(void)
 {
-	int k;
-    float result, number_1, number_2;
 	char c = 'y';
 	while (c == 'y') {
+		int k;
+                float result, number_1, number_2;
 		cout << "Hello,user. Enter two numbers." << endl;
 		cin >> number_1;
 		cin >> number_2;
