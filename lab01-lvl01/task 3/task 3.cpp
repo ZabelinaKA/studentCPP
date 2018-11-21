@@ -14,7 +14,10 @@ int main(void)
 		cin >> number_1;
 		cin >> number_2;
 		cout << "what do you want to do?" << endl;
-		printf("1. +\n2. -\n3. *\n4. /\n");
+		cin >> "1. +;
+		cin >> "2. -";
+		cin >> "3. *";
+		cin >> "4. /";
 		cout << "your answer= ";
 		cin >> k;
 		if ((int)(k == 1)) {
