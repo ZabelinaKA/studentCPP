@@ -27,10 +27,10 @@ int main()
 	age = y_t - y;
 	if (d_t - d < 0) {
 		i++;
-	}
-	if ((m_t - m < 0) || (i > 0)) {
+	    }
+	    if ((m_t - m < 0) || (i > 0)) {
 		age--;
-	}
+	    }
 	cout << "Hello, " << myname << ". You're " << age << " years old." << endl;
 }
 
