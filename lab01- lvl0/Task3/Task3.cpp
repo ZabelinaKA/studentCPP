@@ -7,11 +7,11 @@ using namespace std;
 
 int main()
 {
-	int num, g, t = 0;
-    num = 66;
-	t++;
+  int num, g, t = 0;
+  num = 66;
+  t++;
     cout << "Hi. Try to guess a number.\n";
-    do  {
+      do  {
         cout << t << " Try (1, 100): ";
         cin >> g;
         t++;
@@ -26,7 +26,7 @@ int main()
 		else
             cout << "Answer: YES";
 
-	} while (g != num);
-	cin.get();
+	  } while (g != num);
+  cin.get();
 }
 
