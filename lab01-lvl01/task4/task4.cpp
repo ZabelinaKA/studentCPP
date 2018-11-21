@@ -19,7 +19,7 @@ int main(void)
 					cout << "error\n";
 					char ch = 'y';
 					if (ch == 'y') {
-						cout << "Enter numbers?";
+						cout << "Enter answer?";
 							cin >> ch;
 						cout << "Hello,user. Enter two numbers." << endl;
 						cin >> number_1;
@@ -28,7 +28,10 @@ int main(void)
 					cin.get();
 				}
 				cout << "what do you want to do?" << endl;
-				printf("1. +\n2. -\n3. *\n4. /\n");
+				cin >> "1. +";
+				cin >> "2. -";
+				cin >> "3. *";
+				cin >> "4. /";
 				cout << "your answer= ";
 				cin >> k;
 				
