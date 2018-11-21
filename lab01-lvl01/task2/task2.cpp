@@ -7,14 +7,21 @@ using namespace std;
 
 int main()
 {
-int number_1, number_2, result, k, t;
+
 	char c = 'y';
 	while (c == 'y') {
+		int number_1, number_2, result, k, t;
 		cout << "Hello,user. Enter two numbers." << endl;
 		cin >> number_1;
 		cin >> number_2;
 		cout << "what do you want to do?" << endl;
-        printf("1. +\n2. -\n3. *\n4. /\n5. squaring\n6. rooting\n 7. to calculate the logarithm\n");
+        cin >> "1. +";
+	cin >> "2. -";
+	cin >> "3. *";
+	cin >> "4. /";
+	cin >> "5. squaring";
+	cin >> "6. rooting";
+	cin >> "7. to calculate the logarithm";
 		
 		cout << "your answer= ";
 		cin >> k;
