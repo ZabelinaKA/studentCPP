@@ -25,4 +25,5 @@ int main()
 	char * pA = &op;
 	// *Pa +=10;
 	// cout << a ot *a
+	// array?
 }
