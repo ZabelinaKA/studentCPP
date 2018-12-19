@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	//bool isExceeded(int numToCalculateFactorial, int& stepNumber);
+	
 	while (true) {
 		int numToCalculateFactorial, stepNumber = 0;
 		int f = 1, num;
