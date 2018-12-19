@@ -17,7 +17,7 @@ int main()
 		cin >> number_2;
 		cout << "what do you want to do?" << endl;
 		
-		cin >> "1. +" >> "2. -" >> "3. *" >> "4. /";
+		cout << "1. +" << "2. -" << "3. *" << "4. /" << endl;
 		cout << "your answer= ";
 		cin >> k;
 		if ((int)(k == 1)) {
