@@ -7,38 +7,38 @@ using namespace std;
 
 int main()
 {
-	int ost;
-	bool num, chet;
-	cout << "enter number";
+	int num, ost;
+	bool chet;
+	cout << "enter number^ ";
 	cin >> num;
 	if (num > 0) {
 		num = true;
 	}
 	if (num == true) {
-		cout << "positive number";
+		cout << "positive number" << endl;
 	}
 	else {
-		cout << "negative number";
+		cout << "negative number" << endl;
 	}
 	chet = num % 2;
 	if (chet = 0) {
 		chet = true;
 	}
 	if (chet == true) {
-		cout << "the number is even";
+		cout << "the number is even" << endl;
 	}
 	else {
-		cout << "the number is odd";
+		cout << "the number is odd" << endl;
 	}
 	ost = num % 5;
-	cout << ost;
+	cout << "The remainder of the division by 5 =" << ost << endl;
 	if (num > 10) {
 		num == true;
 	}
 	if (num == true) {
-		cout << "number greater than 10";
+		cout << "number greater than 10" <<  endl;
 	}
 	else {
-		cout << "number less than 10";
+		cout << "number less than 10" << endl;
 	}
 }
