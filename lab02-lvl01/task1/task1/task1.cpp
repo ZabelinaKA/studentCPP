@@ -3,27 +3,50 @@
 
 #include "pch.h"
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
-		char c = 'e', op;
-	bool k=true;
+	int n = 100, i = 0, j = 0;
 	cout << "Input constants:\n";
-	do
+	int *c = nullptr;
+	c = new int[n];
+	for ((c[i] != 0); i < n; i++)
 	{
-		cin >> &c;
-
-		if (c == 'e') 
-		{
-			k = false;
+		cin >> c[i];
+		if ((char)c[i] == 0) {
+		break;
 		}
-	} while (k == true);
-	cout << "Input operations: ";
-	cin >> &op;
-	char * pA = &c;
-	char * pA = &op;
-	// *Pa +=10;
-	// cout << a ot *a
-	// array?
+	}
+	for (i = 0; c[i] != 0; i++)
+	{
+		j = i;
+		cout << c[j] << " ";
+	}
+	cout << "input operation: ";
+	char z;
+	int S = c[0];
+	for (j = 0; c[j+1] != 0; j++)
+	{
+		cin >> z;
+		cout << "your enter operations: " << z << " ";
+		if (z == '+') {
+			S =S + c[j+1];
+		}
+		else if (z == '-') {
+			S = S - c[j + 1];
+		}
+		else if (z == '*') {
+			S = S * c[j + 1];
+		}
+		else if (z == '/') {
+			S = S / c[j + 1];
+		}
+		else S = 0;
+	}
+	cout << "result: " << S << endl;
+	system("pause");
+	return 0;
 }
+
