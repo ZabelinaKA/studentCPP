@@ -25,11 +25,14 @@ int main()
 		cout << c[j] << " ";
 	}
 	cout << "input operation: ";
-	char z;
+	char buf[50];
 	int S = c[0];
+	cin.get();
+	char z;
 	for (j = 0; c[j+1] != 0; j++)
 	{
-		cin >> z;
+		cin >> buf;
+		z = buf[0];
 		cout << "your enter operations: " << z << " ";
 		if (z == '+') {
 			S =S + c[j+1];
@@ -49,4 +52,3 @@ int main()
 	system("pause");
 	return 0;
 }
-
