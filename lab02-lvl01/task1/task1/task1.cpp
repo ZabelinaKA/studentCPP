@@ -15,7 +15,8 @@ int main()
 	for ((c[i] != 0); i < n; i++)
 	{
 		cin >> c[i];
-		if ((char)c[i] == 0) {
+		if ((char)c[i] == 0) 
+		{
 		break;
 		}
 	}
