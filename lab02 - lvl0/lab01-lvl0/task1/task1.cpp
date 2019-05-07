@@ -1,32 +1,30 @@
-﻿// task1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
+﻿
 #include "pch.h"
 #include <iostream>
 using namespace std;
+int func(int a[], int i);
 
 int main()
 {
-	char a;
+	cout << "enter 5 number\n";
 	int b, f1, f2, f3, f4, f5;
-	cout << "enter 5 numbers\n";
-	for (int i = 0; i < 5; i++)
-	{
-		cin >> a;
-		char* f1 = &a;	
-		char* f2 = &a;
-		char* f3 = &a;
-		char* f4 = &a;
-		char* f5 = &a;
-		
-	}
-	f1 = a * a;
-	f2 = a * a;
-	f3 = a * a;
-	f4 = a * a;
-	f5 = a * a;
+	int *a1 = new int[5];
+	f1 = func(a1, 0);
+	f2 = func(a1, 1);
+	f3 = func(a1, 2);
+	f4 = func(a1, 3);
+	f5 = func(a1, 4);
 	b = f1 * f3 - f2 / f4 + f4 * (f5 - f1) - f2;
-	cout << b << endl;
-	cin.get();
+	cout << b;
+
+	cout << endl;
 	return 0;
+}
+
+int func(int a[], int i)
+{
+	int b;
+	cin >> b;
+	a[i] = b * b;
+	return a[i];
 }

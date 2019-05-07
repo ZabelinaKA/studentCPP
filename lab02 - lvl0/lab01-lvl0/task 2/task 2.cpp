@@ -2,18 +2,27 @@
 #include <iostream>
 using namespace std;
 
+float func(float *a, int i)
+{
+	float b;
+	cin >> b;
+	*a = (b * 2 - b + b * (b / 2)) / b / 5;
+	return *a;
+}
+
 int main()
 {
-	int b;
-	cout << "enter 5 numbers\n";
-	int *a = new int[5];
-	for (int i = 0; i < 5; i++)
-	{
-		cin >> a[i];
-	}
+	cout << "enter 5 number\n";
+	float b, f1, f2, f3, f4, f5;
+	float* a1 = new float[5];
+	f1 = func(a1, 0);
+	f2 = func(a1, 1);
+	f3 = func(a1, 2);
+	f4 = func(a1, 3);
+	f5 = func(a1, 4);
+	b = f1 * f3 - f2 / f4 + f4 * (f5 - f1) - f2;
+	cout << b;
 
-	b = (a[1] - a[2] + a[3] * (a[4] / 2)) / a[5] / 5;
-	cout << b << endl;
-	cin.get();
+	cout << endl;
 	return 0;
 }

@@ -1,0 +1,9 @@
+﻿  шаблон по типу int.cpp
+E:\Visual Studio 2017\studentCPP\studentCPP\шаблонный лист\шаблон по типу int\шаблон по типу int\шаблон по типу int.cpp(14): error C2512: list<int>::Node: нет подходящего конструктора по умолчанию
+  E:\Visual Studio 2017\studentCPP\studentCPP\шаблонный лист\шаблон по типу int\шаблон по типу int\шаблон по типу int.cpp(13): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  E:\Visual Studio 2017\studentCPP\studentCPP\шаблонный лист\шаблон по типу int\шаблон по типу int\шаблон по типу int.cpp(74): note: выполняется компиляция ссылки на экземпляр шаблон функции "void list<int>::addFirst(T)"
+          with
+          [
+              T=int
+          ]
+  E:\Visual Studio 2017\studentCPP\studentCPP\шаблонный лист\шаблон по типу int\шаблон по типу int\шаблон по типу int.cpp(61): note: выполняется компиляция ссылки на экземпляр шаблон класс "list<int>"

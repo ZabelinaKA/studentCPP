@@ -12,13 +12,10 @@ int main()
 	cout << "Input constants:\n";
 	int *c = nullptr;
 	c = new int[n];
-	for ((c[i] != 0); i < n; i++)
+	char c1 = 'end';
+	for ((c1 != 'end'); i < n; i++)
 	{
 		cin >> c[i];
-		if ((char)c[i] == 0) 
-		{
-		break;
-		}
 	}
 	for (i = 0; c[i] != 0; i++)
 	{
@@ -26,15 +23,11 @@ int main()
 		cout << c[j] << " ";
 	}
 	cout << "input operation: ";
-	char buf[50];
-	int S = c[0];
-	cin.get();
 	char z;
+	int S = c[0];
 	for (j = 0; c[j+1] != 0; j++)
 	{
-		cin >> buf;
-		z = buf[0];
-		cout << "your enter operations: " << z << " ";
+		cin >> z;
 		if (z == '+') {
 			S =S + c[j+1];
 		}

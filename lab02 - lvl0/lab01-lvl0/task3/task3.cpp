@@ -5,16 +5,27 @@
 #include <iostream>
 using namespace std;
 
+bool isExceeded(int numToCalculateFactorial, int& stepNumber);
+
 int main()
 {
-  while (true) {
 	int numToCalculateFactorial, stepNumber = 0;
-	int f = 1, num;
 	cout << "Type the number to calculate factorial :";
 	cin >> numToCalculateFactorial;
+	if (isExceeded(numToCalculateFactorial, stepNumber)) {
+		cout << " YES" << endl;
+		cout << "The step number is ";
+		cout << stepNumber << endl;
+	}
+	else
+		cout << "NO" << endl;
+}
+
+bool isExceeded(int numToCalculateFactorial, int& stepNumber) {
+	int f = 1, num;
 	do {
-	     f *= numToCalculateFactorial--;
-	   } while (numToCalculateFactorial > 0);
+		f *= numToCalculateFactorial--;
+	} while (numToCalculateFactorial > 0);
 	cout << "Number to compare:";
 	cin >> num;
 	cout << "Did the factorial exceed the value?";
@@ -24,13 +35,7 @@ int main()
 			f /= numToCalculateFactorial++;
 			stepNumber = stepNumber++;
 		} while (f > num);
-		cout << " YES" << endl;
-		cout << "The step number is ";
-		cout << stepNumber << endl;
+		return true;
 	}
-	else if (f <= num) {
-		cout << "NO" << endl;
-	}
-  }
+	else return false;
 }
-
