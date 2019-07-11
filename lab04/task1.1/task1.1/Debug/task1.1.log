@@ -1,0 +1,5 @@
+﻿  task1.1.cpp
+E:\Visual Studio 2017\studentCPP\studentCPP\lab04\task1.1\task1.1\task1.1.cpp(47): error C2372: buff: переопределение; различные типы косвенного обращения
+  E:\Visual Studio 2017\studentCPP\studentCPP\lab04\task1.1\task1.1\task1.1.cpp(36): note:  см. объявление "buff"
+E:\Visual Studio 2017\studentCPP\studentCPP\lab04\task1.1\task1.1\task1.1.cpp(48): error C2088: >>: недопустимо для class
+E:\Visual Studio 2017\studentCPP\studentCPP\lab04\task1.1\task1.1\task1.1.cpp(63): warning C4154: удаление массива; выполнено преобразование к указателю
